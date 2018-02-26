@@ -22,8 +22,7 @@ Followed  by compilation notes and example (same for all enviroments)
 ---------------------------
 1) Get the compiler
 ---------------------------
-
-Check if you have gcc combiler (gcc47 or gcc49 are preferd but shoudl work with all versions starting from gcc4.2)
+Check if you have gcc combiler
 gcc --version
 
 If not install with:
@@ -32,6 +31,7 @@ sudo apt-get install gcc
 --------------------------------------
 2) install libraries
 --------------------------------------
+- download the linux libraries here: http://tdo.sk/~janka/lib/
 - unpack libraries in /lib/ folder
 - install with calling: make clean, make
 
