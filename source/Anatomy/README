@@ -1,0 +1,59 @@
+--------------------------------
+	OriginalMRI
+--------------------------------
+
+Data from old BrainWeb
+source: http://brainweb.bic.mni.mcgill.ca/brainweb/anatomic_normal.html
+
+Anatomy data:
+
+image: unsigned byte 0 to 255
+image dimensions: zspace yspace xspace
+    dimension name         length         step        start
+    --------------         ------         ----        -----
+    zspace                    181            1          -72
+    yspace                    217            1         -126
+    xspace                    181            1          -90
+
+--------------------------------
+	Subject*
+--------------------------------
+
+Data from new BrainWeb
+source: http://brainweb.bic.mni.mcgill.ca/anatomic_normal_20.html
+
+image: signed__ byte -128 to 127
+image dimensions: zspace yspace xspace
+    dimension name         length         step        start
+    --------------         ------         ----        -----
+    zspace                    362          0.5       -72.25
+    yspace                    434          0.5      -126.25
+    xspace                    362          0.5       -90.25
+
+Acknowledge:
+http://brainweb.bic.mni.mcgill.ca/brainweb/#references
+
+--------------------------------
+        Atlas
+--------------------------------
+Data from probabilistic brain atlas,
+Transfer to binary format
+
+    dimension name         length         step       
+    --------------         ------         ----        
+    zspace                    229            1         
+    yspace                    193            1        
+    xspace                    193            1  
+
+--------------------------------
+        HGG/Patient*
+--------------------------------
+Patient data (from Thomas Pika and Christine Preibish from Klinikum rechts der Isar TUM)
+Stored in binary format
+
+    dimension name         length         step
+    --------------         ------         ----
+    zspace                    160           1
+    yspace                    240           1
+    xspace                    256           1 
+

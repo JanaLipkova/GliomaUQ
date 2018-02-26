@@ -1,0 +1,140 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		F9769DCB1B4E7D81005C7F39 /* makefile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = makefile; sourceTree = "<group>"; };
+		F9769DCC1B4E7D81005C7F39 /* source */ = {isa = PBXFileReference; lastKnownFileType = folder; path = source; sourceTree = "<group>"; };
+		F983F1DA1C0DD28A009D0B1A /* source */ = {isa = PBXFileReference; lastKnownFileType = folder; name = source; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		F9769DC51B4E7D81005C7F39 = {
+			isa = PBXGroup;
+			children = (
+				F9769DCB1B4E7D81005C7F39 /* makefile */,
+				F9769DCC1B4E7D81005C7F39 /* source */,
+				F983F1DA1C0DD28A009D0B1A /* source */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		F9769DCA1B4E7D81005C7F39 /* HGG_Likelihood */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = F9769DCD1B4E7D81005C7F39 /* Build configuration list for PBXLegacyTarget "HGG_Likelihood" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Volumes/brutus/GliomaAdvance/source/HGG_Likelihood;
+			dependencies = (
+			);
+			name = HGG_Likelihood;
+			passBuildSettingsInEnvironment = 1;
+			productName = HGG_Likelihood;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		F9769DC61B4E7D81005C7F39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = F9769DC91B4E7D81005C7F39 /* Build configuration list for PBXProject "HGG_Likelihood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F9769DC51B4E7D81005C7F39;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9769DCA1B4E7D81005C7F39 /* HGG_Likelihood */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		F9769DC71B4E7D81005C7F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		F9769DC81B4E7D81005C7F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		F9769DCE1B4E7D81005C7F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = HGG_Likelihood;
+			};
+			name = Debug;
+		};
+		F9769DCF1B4E7D81005C7F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = HGG_Likelihood;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9769DC91B4E7D81005C7F39 /* Build configuration list for PBXProject "HGG_Likelihood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9769DC71B4E7D81005C7F39 /* Debug */,
+				F9769DC81B4E7D81005C7F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9769DCD1B4E7D81005C7F39 /* Build configuration list for PBXLegacyTarget "HGG_Likelihood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9769DCE1B4E7D81005C7F39 /* Debug */,
+				F9769DCF1B4E7D81005C7F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9769DC61B4E7D81005C7F39 /* Project object */;
+}
