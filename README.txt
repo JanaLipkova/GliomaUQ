@@ -33,15 +33,16 @@ sudo apt-get install gcc
 --------------------------------------
 - download the linux libraries here: http://tdo.sk/~janka/lib/
 - unpack libraries in /lib/ folder
-- install with calling: make clean, make
+- install tbb library by  calling: make clean, make
+- vtk library just need to be uncompressed, no need to install
 
 ---------------------------------------
 3) set up the enviroment
 ---------------------------------------
 Setup and make file with extension Kraken are for Linux enviroment:
 
-i  ) set the path to the libraries see: source/make/setupGlioma_Kraken.sh
-ii ) export path to libraries see make.kraken
+i  ) set the path to the libraries see: source/make/setupGlioma_Kraken.sh (modify LIB_BASE only)
+ii ) export path to libraries see make.kraken   (modify LIB_BASE only)
 iii) Makefile calls corresponding make.* depending on the hostname, modify it so it calls your make.*
 
 
