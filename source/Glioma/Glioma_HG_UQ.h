@@ -34,12 +34,7 @@ private:
     bool                                    bVerbose;
     int                                     pID;
     
-    static void _ic_SubjectBrain(Grid<W,B>& grid);
-    static void _ic_AtlasBrain(Grid<W,B>& grid);
     static void _ic_PatientCase(Grid<W,B>& grid, int pID);
-
-    static void	_readInBrainWebAnatomy(vector<float>& tissue, FILE* fp, int DataSize, int threshold );
-    static void _selectBrainWebAnatomy(vector<float>& GreyTissueData, vector<float>& WhiteTissueData, vector<float> & CsfData, int dataSize);
     static void _readInTumorPosition(vector<Real>& tumorIC);
 
     void        _reactionDiffusionStep(BoundaryInfo* boundaryInfo, const int nParallelGranularity, const Real Dw, const Real Dg, const Real rho, double dt);

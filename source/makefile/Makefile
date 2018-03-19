@@ -123,7 +123,6 @@ VPATH := ../Glioma/ ../MRAGcore/
 OBJECTS = \
 Glioma_main.o \
 Glioma_HG_UQ.o\
-Glioma_HG_UQ_MALA.o\
 Glioma_Necrosis.o\
 Glioma_ProcessSyntheticData.o\
 Glioma_HG_ProcessPatientData.o\

@@ -14,7 +14,7 @@
 #include "Glioma_HG_ProcessPatientData.h"
 #include "Glioma_HG_Propagation.h"
 #include "Glioma_HG_Visualizations.h"
-#include "Glioma_HG_UQ_MALA.h"
+//#include "Glioma_HG_UQ_MALA.h"
 //#include "Glioma_HG_Recurrance.h"
 
 //Bone stuffs
@@ -27,13 +27,13 @@
 #include "Glioma_Necrosis.h"
 
 // Radiotherpy
-#include "Glioma_HG_AddUniformMargin.h"
+//#include "Glioma_HG_AddUniformMargin.h"
 
 // VP Visualization
 #include "Glioma_dat2VP.h"
 
 // Turing patterns
-#include "Glioma_TuringPatterns.h"
+//#include "Glioma_TuringPatterns.h"
 
 #include "Test.h"
 
@@ -58,10 +58,10 @@ int main(int argc,const char ** argv)
 	
       if(parser("-anatomy").asString() == "HGG_UQ")
       s = new Glioma_HG_UQ(argc, (const char **)argv);
-      else if(parser("-anatomy").asString() == "HGG_UQ_MALA")
-          s = new Glioma_HG_UQ_MALA(argc, (const char **)argv);
-      else if(parser("-anatomy").asString() == "recurrence")
-          s = new Glioma_HG_Recurrance(argc, (const char **)argv);
+      //else if(parser("-anatomy").asString() == "HGG_UQ_MALA")
+      //    s = new Glioma_HG_UQ_MALA(argc, (const char **)argv);
+      //else if(parser("-anatomy").asString() == "recurrence")
+      //    s = new Glioma_HG_Recurrance(argc, (const char **)argv);
       else if(parser("-anatomy").asString() == "syntheticData")
       s = new Glioma_ProcessSyntheticData(argc, (const char **)argv);
       else if(parser("-anatomy").asString() == "patientData")
@@ -70,22 +70,22 @@ int main(int argc,const char ** argv)
           s = new Glioma_HG_Propagation(argc, (const char **)argv);
       else if(parser("-anatomy").asString() == "visualization")
           s = new Glioma_HG_Visualizations(argc, (const char **)argv);
-      else if(parser("-anatomy").asString() == "simpleBone")
-          s = new Glioma_Bone_UQ(argc, (const char **)argv);
-      else if(parser("-anatomy").asString() == "bmdBone")
-          s = new Glioma_Bone_BMD_UQ(argc, (const char **)argv);
-      else if(parser("-anatomy").asString() == "syntheticBoneData")
-          s = new Glioma_Bone_ProcessSyntheticData(argc, (const char **)argv);
-      else if(parser("-anatomy").asString() == "patientBoneData")
-          s = new Glioma_Bone_ProcessPatientData(argc, (const char **)argv);
+      //else if(parser("-anatomy").asString() == "simpleBone")
+      //    s = new Glioma_Bone_UQ(argc, (const char **)argv);
+      //else if(parser("-anatomy").asString() == "bmdBone")
+      //    s = new Glioma_Bone_BMD_UQ(argc, (const char **)argv);
+      //else if(parser("-anatomy").asString() == "syntheticBoneData")
+      //    s = new Glioma_Bone_ProcessSyntheticData(argc, (const char **)argv);
+      //else if(parser("-anatomy").asString() == "patientBoneData")
+      //    s = new Glioma_Bone_ProcessPatientData(argc, (const char **)argv);
       else if(parser("-anatomy").asString() == "necrosis")
           s = new Glioma_Necrosis(argc, (const char **)argv);
-      else if(parser("-anatomy").asString() == "addMargin")
-          s = new Glioma_HG_AddUniformMargin(argc, (const char **)argv);
+      //else if(parser("-anatomy").asString() == "addMargin")
+      //    s = new Glioma_HG_AddUniformMargin(argc, (const char **)argv);
       else if(parser("-anatomy").asString() == "VPvisualisation")
           s = new Glioma_dat2VP(argc, (const char **)argv);
-      else if(parser("-anatomy").asString() == "Turing")
-          s = new Glioma_TuringPatterns(argc, (const char **)argv);
+      //else if(parser("-anatomy").asString() == "Turing")
+      //    s = new Glioma_TuringPatterns(argc, (const char **)argv);
       else
       s = new Test(argc, (const char **)argv);
 
